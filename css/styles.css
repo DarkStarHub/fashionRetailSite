@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    touch-action: none;
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../assets/Font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../assets/Font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../assets/Font/Montserrat-Light.ttf);
+}
+
+
+body{
+    min-height: 100vh;
+    /*background-color: azure;*/
+    background-color: rgb(206, 255, 255);
+   
+}
+
+.--RB{
+    border:1px solid rgb(255, 0, 0);
+}
+
+.--f-row{
+    display: flex;
+    flex-direction: row;
+}
+.--f-col{
+    display: flex;
+    flex-direction: column;
+}
+.--f-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.--f-col-centered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.--f-col-align{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+.--f-row-align{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+.--f-row-just{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+
+/*
+.main-container{    
+    position: relative;
+}*/
+
+.head{   
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    z-index: 1;  
+}
+
+.head__nav{
+    height:40px;
+}
+
+.mw-nav-box{
+    width: 140px;   
+    justify-content: space-between;
+    margin-left: 3vw;
+}
+
+
+
+.--f-w-norm{
+    font-family: Montserrat-Regular;
+    font-size: 20px;    
+}
+
+.--ml-10{
+    margin-left: 50px;
+}
+.--mr-10{
+    margin-right: 50px;
+}
+
+
+.head__ribbon{
+    background-color: black;    
+    justify-content: space-between;    
+}
+
+
+.logo{
+    font-family: Montserrat-Regular;
+    font-size: calc(60px); 
+    color: white;     
+}
+
+
+.icon-box{
+    width: 160px;      
+    justify-content: space-between;
+}
+
+.--hrb-icon{
+    width: 24px;
+    height: 23px;     
+}
+
+.--search-ico{
+    background: url("../assets/Icons/search.png"); 
+    background-repeat: no-repeat;
+    background-size: 100%;   
+}
+.--login-ico{
+    background: url("../assets/Icons/login.png"); 
+    background-repeat: no-repeat;
+    background-size: 100%;   
+}
+.--wl-ico{
+    background: url("../assets/Icons/wishlist.png"); 
+    background-repeat: no-repeat;
+    background-size: 100%;   
+}
+.--bag-ico{
+    background: url("../assets/Icons/bag.png"); 
+    background-repeat: no-repeat;
+    background-size: 100%;   
+}
+
+
+
+
+
+.head__menu{    
+    justify-content: space-evenly;
+    width: 60%;
+    height: 50px;
+}
+
+
+.--head-menu-font{
+    font-family: Montserrat-Regular;
+    font-size: 16px;  
+}
+
+.--bold-action-font{
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+}
+
+
+.action-bar{
+    height: 70px;
+    background-color: yellow;
+}
+
+/*
+.scroll-container{
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}*/
+
+
+.sec-1{    
+    margin-top: 160px; 
+}
+
+.img-box{
+    position: relative;
+    width: 100%;
+    height: 65vw;
+}
+
+.main-img{       
+    background: url("../assets/main.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+.img-lbl-inner{
+    position: relative;
+    top:80%;
+    left: 2%;
+    width: 25%;
+    height: 16%;
+    background-color: white;      
+}
+
+.lbl-text-box{
+    width:80%;
+    height:80%;
+    justify-content: space-evenly;    
+}
+
+.--txt-cent{
+    text-align: center;
+}
+
+.--rsp-font{
+    font-family: Montserrat-Regular;
+    /*font-size: 18px; */
+    font-size: 1.6vw;  
+}
+.--rsp-font-smaller{
+    font-family: Montserrat-light;
+    /*font-size: 14px;*/
+    font-size: 1.05vw; 
+}
+.--rsp-font-underscore{
+    font-family: Montserrat-Regular;
+    /*font-size: 16px;*/
+    font-size: 1.25vw; 
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.sec-2{
+    height: 500px;
+    background-color: thistle;
+   
+}
+
+.sec-inner{
+    width: 70%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.card{
+    width:30%;
+    height: 80%;    
+}
+.card-img-box{
+    width: 100%;
+    height: 100%;
+}
+
+.--swshirt-img{
+    background: url("../assets/imgs/swshirt.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;   
+}
+.--watch-img{
+    background: url("../assets/imgs/watch.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;   
+}
+.--boot-img{
+    background: url("../assets/imgs/boot.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;   
+}
+
+
+
+
+.sec-3{
+    height: 400px;
+    background-color: rgb(187, 196, 201);
+}
+
