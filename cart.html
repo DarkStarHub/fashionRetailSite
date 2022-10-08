@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>  
+    
+    <link rel="stylesheet" href="css/styles.css"></head>
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="--w100 --hf20">
+
+        </div>
+        <div class="--f-jsb --f-row-align --bg-gray" id="bagModalHook">
+            <div class="icon-box --f-row --ml-r5">
+                <div class="mw-nav-box --fnt-mon-r --fnt-f16 --f-row">
+                    <a class="--fnt-b" href="index.html">
+                        <span class="--fnt-mon-b --fnt-us cp" id="mId">Men</span>
+                        </a>
+                        <a class="--fnt-b" href="women.html">
+                            <span id="wId">Women</span>
+                        </a> 
+                </div>  
+            </div>
+            <div class="logo --fnt-mon-b --fnt-w">MOOX</div>
+            <div class="icon-box --f-row --mr-r5">               
+                <img class="--hrb-icon cp" id="logId" src="./assets/Icons/login.png" alt="">
+                <img class="--hrb-icon" src="./assets/Icons/wishlist.png" alt="">
+                <img class="--hrb-icon cp" id="bagID" src="./assets/Icons/bag.png" alt="">
+            </div>          
+        </div>
+    </section>
+    <section class="--w100 --f-col-align">
+        <div class="--w90 --fnt-r20 --fnt-w700 --mt-r4">Your Shopping Bag</div>
+            
+        <div class="--w90 --f-row --mtb-r1 --f-jsb">                        
+            <div class="--w70 --f-col">
+                <div class="--w100">
+                    <div class="--w100 line-break"></div>
+                </div>
+                <div class="--w100 --hr40-min --mt-r1" id="bagDispID">           
+                </div>
+             </div> 
+
+            <div class="--w28 --hr40 --f-col">                                
+                <span class="--fnt-r20 --fnt-w600" >ORDER SUMMARY</span>               
+                <div class="--f-row-align --f-jsb --mt-r1">                   
+                    <span class="--fnt-r16">Item subtotal</span>
+                    <span class="--fnt-r16 --fnt-w600" id="subTID">0</span>
+                </div> 
+                <div class="--f-row --f-jsb --mt-r1">                   
+                    <span class="--fnt-r16" >Shipping</span>
+                    <span class="--fnt-r16 --fnt-w600" id="shipTotalID">Free</span>
+                </div>   
+                <div class="--w100 --f-centered">
+                    <div class="--w100 line-break --mt-r1"></div>
+                </div>
+                <div class="--f-row --f-jsb --mt-r1">                   
+                    <span class="--fnt-r16 --fnt-w600">TOTAL</span>
+                    <span class="--fnt-r16 --fnt-w700" id="totalID">3150</span>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+    <div class="--w100 --mtb-r1 --f-centered">
+        <div class="--w90 line-break"></div>
+    </div>
+
+    <section class="--w100  --bg-lr --f-centered">
+        <div class="--W90 --f-col">
+        <div class="--w100 --f-row">
+            <div class="--half --f-col --fnt-f16">
+
+                <span>10% OFF WHEN YOU SIGN UP</span>
+                <span class="--mt-r2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span>
+                
+                <!--
+                <div class="input-box --f-row-align --RB">
+                    <input class="input-fld" type="text" id="fname" placeholder="Enter Email">
+                    <button type="button"  class="btn sub-btn3 --fnt-w" >Submit</button> 
+                </div>
+                <div class="--w100">
+                    <div class="--w100 line-break --mt-r1"></div>
+                </div>
+                <div class="--w100 --f-row">                    
+                    <img class="--hp100 --mg-1" src="./assets/SocialIcons/Youtube@svg.svg" alt="">
+                    <img class="--hp100 --mg-1" src="./assets/SocialIcons/Instagram@svg.svg" alt="">
+                    <img class="--hp100 --mg-1" src="./assets/SocialIcons/Pinterest@svg.svg" alt="">                    
+                    <img class="--hp100 --mg-1" src="./assets/SocialIcons/Twitter@svg.svg" alt="">
+                    <img class="--hp100 --mg-1" src="./assets/SocialIcons/Facebook@svg.svg" alt="">
+                </div>-->
+            </div>
+            <div class="--half --f-col --fnt-f16 --ml-r5">
+                <span>SELECT SHIPPING METHOD</span>
+                <form class="--mt-r3" id="shipGID">
+                      <input type="radio" id="standard" name="shipGroup" value=0>
+                      <label for="standard">STANDARD &nbsp &nbsp FREE</label>                        
+                        <br>                      
+                      <input class="--mt-r2" type="radio" id="express" name="shipGroup" value= 9.99>
+                      <label for="express">EXPRESS &nbsp &nbsp &nbsp &nbsp $9.99</label>                    
+                        <br>
+                      <input class="--mt-r2" type="radio" id="overnight" name="shipGroup" value= 19.99>
+                      <label for="overnight">OVERNIGHT &nbsp $19.99</label>                    
+                </form> 
+            </div>
+        </div>
+        <div class="input-box --f-row-align">
+            <input class="input-fld" type="text" id="fname" placeholder="Enter Email">
+            <button type="button"  class="btn sub-btn3 --fnt-w" >Submit</button> 
+        </div>
+        <div class="--w100">
+            <div class="--w100 line-break --mt-r1"></div>
+        </div>
+        <div class="--w100 --f-row">                    
+            <img class="--hp100 --mg-1" src="./assets/SocialIcons/Youtube@svg.svg" alt="">
+            <img class="--hp100 --mg-1" src="./assets/SocialIcons/Instagram@svg.svg" alt="">
+            <img class="--hp100 --mg-1" src="./assets/SocialIcons/Pinterest@svg.svg" alt="">                    
+            <img class="--hp100 --mg-1" src="./assets/SocialIcons/Twitter@svg.svg" alt="">
+            <img class="--hp100 --mg-1" src="./assets/SocialIcons/Facebook@svg.svg" alt="">
+        </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="--w100 --f-col-align">
+            <div class="footer-box --f-centered">
+                <span class="--mtb-f30">Free Shipping, Free Returns* Online & In-Store.</span>
+            </div>
+            <div class="text-box --mt-f20 --f-row">
+            <div class="--qrtr --f-centered">
+                <div class="footer__copy-box  --f-col --fnt-mon-r">
+                    <span class="--margin-btm footer__h1-fnt">Help</span>
+                    <ul class="footer-list --fnt-f12">
+                        <li>Call Us at ***-***-****</li>
+                        <li>Email Us</li>
+                        <li>My Account</li>
+                        <li>Track My Order</li>
+                        <li>Returns & Exchanges</li>
+                        <li>Pay My Credit Card</li>
+                        <li>Gift Cards</li>
+                        <li>Neiman Marcus Group</li>                        
+                    </ul>
+                </div>
+            </div>
+            <div class="--qrtr --f-centered">
+                <div class="footer__copy-box  --f-col --fnt-mon-r">
+                    <span class="--margin-btm footer__h1-fnt">Our Offerings</span>
+                    <ul class="footer-list --fnt-f12">
+                        <li>Women's Store</li>
+                        <li>Men's Store</li>
+                        <li>Our Restaurants</li>
+                        <li>Store Services</li>
+                        <li>Book A Store Appointment</li>
+                        <li>Same-Day Delivery</li>
+                        <li>MOOX Credit Card</li>                                         
+                    </ul>
+                </div>
+            </div>
+            <div class="--half --f-centered">   
+                <div class="footer__copy-box --f-col">
+                    <div class="--wide --fnt-mon-r footer__h1-fnt">
+                        <span>Sign up for Emails and receive 10% off your first purchase:</span>
+                        <div class="email-box">
+                            <input class="input-fld" type="text" id="fname" placeholder="Enter Email">
+                            <button type="button"  class="btn sub-btn --fnt-w" >Submit</button> 
+                        </div>
+                    </div>
+                    <div class="--wide --mt-f30">
+                        <span>MOOX Accepts</span>
+                        <div class="--w100 --f-row --f-wrap">
+                            <img src="./assets/PayMethods/afterpay_new-png.webp" class="pay-img" alt="">
+                            <img src="./assets/PayMethods/amex.webp" class="pay-img" alt="">
+                            <img src="./assets/PayMethods/apple-pay-png.webp" class="pay-img" alt="">
+                            <img src="./assets/PayMethods/klarna-gb-png.webp" class="pay-img" alt="">
+                            <img src="./assets/PayMethods/maestro-png.webp" class="pay-img" alt="">
+                            <img src="./assets/PayMethods/mastercard-png.webp" class="pay-img" alt="">
+                            <img src="./assets/PayMethods/pay-pal-png.webp" class="pay-img" alt="">
+                            <img src="./assets/PayMethods/visa-electron-png.webp" class="pay-img" alt="">
+                            <img src="./assets/PayMethods/visa-png.webp" class="pay-img" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div> 
+        </div>       
+    </section>
+  
+    <script src="js/cartScript.js"></script>
+    <script src="js/bagModal.js"></script>
+</body>
+</html>
